@@ -1,7 +1,6 @@
 def PrintFibonacci(length):
     first = 0
     second = 1
-    print(first, second, end=" ")
     length -= 2
 
     while length > 0:
@@ -12,4 +11,6 @@ def PrintFibonacci(length):
 
         length -= 1
 if __name__ == "__main__":
+        x = input()
+    PrintFibonacci(x)
     PrintFibonacci(-5)
